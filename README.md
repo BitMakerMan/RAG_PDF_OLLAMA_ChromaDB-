@@ -33,6 +33,11 @@ L'intero sistema è eseguibile in locale, senza dipendenze cloud, ed è ideale p
   pip install langchain langchain-community pypdf sentence-transformers chromadb requests
   ```
 
+Se i tuoi PDF sono in italiano o misti:
+  ```bash
+  pip install sentence-transformers
+  ```
+
 ---
 
 ## 📁 Struttura del Progetto
