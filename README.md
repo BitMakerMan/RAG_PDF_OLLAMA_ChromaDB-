@@ -21,7 +21,6 @@ L'intero sistema è eseguibile in locale, senza dipendenze cloud, ed è ideale p
 - ✅ Generazione embedding con `BAAI/bge-small-en-v1.5`  
 - ✅ Database vettoriale locale con **ChromaDB**  
 - ✅ Query semantica + risposta contestuale con **Qwen3:8b** su **Ollama**  
-- ✅ Integrazione con **n8n** per automazioni  
 
 ---
 
@@ -101,17 +100,6 @@ Qual è la durata del contratto?
 ```
 
 ---
-
-## 🔧 Integrazione con n8n (Opzionale)
-Puoi integrare il sistema con **n8n** per:
-- Ricevere PDF via Webhook  
-- Automatizzare l'ingestione  
-- Inviare risposte via email/slack/notion  
-
-Esempio di workflow:
-```
-HTTP Webhook → File System Watcher → Python Script (ingest_pdf.py) → Ollama Response
-```
 
 ## 🛠 Personalizzazioni Possibili
 - Cambiare modello LLM (es. `llama3`, `mistral`, ecc.)  
