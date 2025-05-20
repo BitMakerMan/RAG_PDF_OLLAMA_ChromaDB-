@@ -37,7 +37,7 @@ L'intero sistema è eseguibile in locale, senza dipendenze cloud, ed è ideale p
 
 ## 📁 Struttura del Progetto
 ```
-rag-system/
+RAG_1/
 ├── data/              # PDF caricati
 ├── scripts/             # Script Python
 │   ├── ingest_pdf.py    # Inserisce PDF nel RAG
